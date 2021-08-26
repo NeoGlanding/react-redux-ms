@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux';
-import { counterTogglerAction } from '../storage/reduxStore';
+import { counterTogglerAction } from '../storage/counterToggler';
 
 const CounterFunctional = props => {
     const dispatch = useDispatch();
