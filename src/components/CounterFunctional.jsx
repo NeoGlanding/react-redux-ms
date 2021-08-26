@@ -4,7 +4,7 @@ import { counterTogglerAction } from '../storage/reduxStore';
 
 const CounterFunctional = props => {
     const dispatch = useDispatch();
-    const counter = useSelector(state => state.counter);
+    const counter = useSelector(state => state.counter.counter);
 
     return (
         <div>
